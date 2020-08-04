@@ -1,5 +1,6 @@
+
     .my-work  {
-      background: url(https://raw.githubusercontent.com/matienatov/matienatov.github.io/master/images/Matie_Natov_UX.png) no-repeat center center fixed; 
+      background: url(images/Matie_Natov_UX.png) no-repeat center center fixed; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -7,30 +8,92 @@
       color:#FFF;
       background-color:#444444;
     }
-  .filter {
-      display: inline;
-      background: #f8f9fa;
-      text-align: center;
-      padding: 7px 20px;
-      margin: 0px 8px 0px 0px;
-      border-radius: 4px;
-  }
-  .filter_picked {
-      display: inline;
-      background: #007bff;
-      text-align: center;
-      padding: 7px 20px;
-      margin: 0px 8px 0px 0px;
-      border-radius: 4px;
-      color: #FFF;
-  }
-  h5.filter_title {
-      display: inline;
-      margin: 0px 13px 0px 0px;
-  }
+    .img-gallery {
+      width: 100%;
+      border: 1px whitesmoke solid;
+      box-shadow: 2px 2px 2px #00000030;
+      border-radius: 5px;
+      margin-bottom: 33px;
+      cursor:pointer;
+    }
 
-  /* fluid 5 columns */
-  .grid-sizer,
-  .grid-item { width: 33%; }
+    span.filter-gallery {
+		cursor: pointer;
+        display: block;
+        background: rgb(251 251 251 / 21%);
+        padding: 10px;
+        margin-bottom: 6px;
+        border: 1px rgb(224 224 224) solid;
+        border-radius: 3px;
+        color: #6c757d;
+    }
+
+    span.filter-gallery:hover {
+		cursor:pointer;
+        display: block;
+        background: #1e1e1e;
+        padding: 10px;
+        margin-bottom: 6px;
+        border: 1px #1e1e1e solid;
+        border-radius: 3px;
+        color: #FFF;
+       
+    }
+
+	span.filter-gallery-active {
+		cursor: pointer;
+		display: block;
+		background: #1e1e1e;
+		padding: 10px;
+		margin-bottom: 6px;
+		border: 1px #1e1e1e solid;
+		border-radius: 3px;
+		color: #FFF;
+	}
+
+	.img-BG {
+		background: whitesmoke;
+		padding: 101px;
+	}
 
 
+
+
+/*
+
+
+
+		<!--~~~~~~~~~~~~~ LTCE ~~~~~~~~~~~~~-->
+		<!--~~~~~~~~~~~~~ LTCE ~~~~~~~~~~~~~-->
+		<!--~~~~~~~~~~~~~ LTCE ~~~~~~~~~~~~~-->
+		<img alt="Image of Wireframe" class="img-gallery" data-toggle="modal" data-target="#tab-2-modal-3" src="images/MSL_Screen_1.png"/>
+		<!--~~~~~~~~~~~~~ Modal ~~~~~~~~~~~~~-->
+		<div class="modal fade" id="tab-2-modal-3" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-xl">
+			  <div class="modal-content">
+				<div class="modal-body">
+				  <img alt="Image of Web Page" class="img-gallery" src="images/MSL_Screen_1.png"/>
+				</div>
+			  </div>
+			</div>
+		</div>
+		
+		
+		<!--~~~~~~~~~~~~~ SEPHORA STANDS ~~~~~~~~~~~~~-->
+		<!--~~~~~~~~~~~~~ SEPHORA STANDS ~~~~~~~~~~~~~-->
+		<!--~~~~~~~~~~~~~ SEPHORA STANDS ~~~~~~~~~~~~~-->
+		<img alt="Image of Wireframe" class="img-gallery" data-toggle="modal" data-target="#tab-2-modal-4" src="images/Sephora_Stands_Wireframe_3.png"/>
+		<!--~~~~~~~~~~~~~ Modal ~~~~~~~~~~~~~-->
+		<div class="modal fade" id="tab-2-modal-4" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog modal-xl">
+			  <div class="modal-content">
+				<div class="modal-body">
+				  <img alt="Image of Web Page" class="img-gallery" src="images/Sephora_Stands_Wireframe_3.png"/>
+				</div>
+			  </div>
+			</div>
+		</div>
+
+
+
+*/
