@@ -11,13 +11,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	  
 	  
-	  
-	<!-- Icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic.min.css">
+	 <!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"> 
 	  
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="https://matienatov.github.io/styles.css">
+    <link rel="stylesheet" href="http://matienatov.github.io/styles.css">
 
     <!-- Favicon -->
     <link rel="icon" 
@@ -41,10 +40,9 @@
 
 
 <!--~~~~~~~~~~~~~ Nav Bar ~~~~~~~~~~~~~-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 	<div class="container">
 		<a class="navbar-brand" href="#">
-			<img alt="Tiny picture of Matie Natov" src="https://raw.githubusercontent.com/matienatov/matienatov.github.io/master/images/Matie_Tiny.png" width="30" height="30" class="d-inline-block align-top"/>
 			Matie Natov
 		</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,14 +60,17 @@
 
 
 
+<br>
+<br>
+	  
 
-<!--~~~~~~~~~~~~~ Jumbotron ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~ Jumbotron
 <div class="jumbotron my-work jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">My Work</h1>
   </div>
 </div>
-
+ ~~~~~~~~~~~~~-->
 
 
 
@@ -93,16 +94,16 @@
   <div class="row">
     <div class="col-md">
 		
-        <span id="Filter_1" class="filter-gallery-active">
+        <span id="Filter_1" class="btn btn-block btn-primary">
 			Web Pages
 		</span>
-        <span id="Filter_2" class="filter-gallery">
+        <span id="Filter_2" class="btn btn-block btn-light">
 			Wireframes
 		</span>
-        <span id="Filter_3" class="filter-gallery">
+        <span id="Filter_3" class="btn btn-block btn-light">
 			Visual / UI
 		</span>
-        <span id="Filter_4" class="filter-gallery">
+        <span id="Filter_4" class="btn btn-block btn-light">
 			Graphic Design
 		</span>
       </div><!-- end col -->
@@ -598,13 +599,13 @@ $('#inpager_7').hide();
 // Activate First Tab
 $('#Filter_1').click(function() {
   // Change Filter Button Appearances
-    $(this).removeClass( "filter-gallery" ).addClass( "filter-gallery-active" );
-    $('#Filter_2').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_3').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_4').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_5').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_6').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_7').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
+    $(this).removeClass( "btn-light" ).addClass( "btn-primary" );
+    $('#Filter_2').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_3').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_4').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_5').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_6').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_7').removeClass( "btn-primary" ).addClass( "btn-light" );
   // Hide / Show main content
     $('#inpager_1').show();
     $('#inpager_2').hide();
@@ -618,13 +619,13 @@ $('#Filter_1').click(function() {
 // Activate Second Tab
 $('#Filter_2').click(function() {
   // Change Filter Button Appearances
-    $('#Filter_1').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $(this).removeClass( "filter-gallery" ).addClass( "filter-gallery-active" );
-    $('#Filter_3').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_4').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_5').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_6').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_7').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
+    $('#Filter_1').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $(this).removeClass( "btn-light" ).addClass( "btn-primary" );
+    $('#Filter_3').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_4').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_5').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_6').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_7').removeClass( "btn-primary" ).addClass( "btn-light" );
   // Hide / Show main content
     $('#inpager_1').hide();
     $('#inpager_2').show();
@@ -638,13 +639,13 @@ $('#Filter_2').click(function() {
 // Activate Third Tab
 $('#Filter_3').click(function() {
   // Change Filter Button Appearances
-    $('#Filter_1').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_2').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $(this).removeClass( "filter-gallery" ).addClass( "filter-gallery-active" );
-    $('#Filter_4').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_5').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_6').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_7').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
+    $('#Filter_1').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_2').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $(this).removeClass( "btn-light" ).addClass( "btn-primary" );
+    $('#Filter_4').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_5').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_6').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_7').removeClass( "btn-primary" ).addClass( "btn-light" );
   // Hide / Show main content
     $('#inpager_1').hide();
     $('#inpager_2').hide();
@@ -659,13 +660,13 @@ $('#Filter_3').click(function() {
 // Activate Fourth Tab
 $('#Filter_4').click(function() {
   // Change Filter Button Appearances
-    $('#Filter_1').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_2').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_3').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $(this).removeClass( "filter-gallery" ).addClass( "filter-gallery-active" );
-    $('#Filter_5').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_6').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_7').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
+    $('#Filter_1').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_2').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_3').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $(this).removeClass( "btn-light" ).addClass( "btn-primary" );
+    $('#Filter_5').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_6').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_7').removeClass( "btn-primary" ).addClass( "btn-light" );
   // Hide / Show main content
     $('#inpager_1').hide();
     $('#inpager_2').hide();
@@ -680,13 +681,13 @@ $('#Filter_4').click(function() {
 // Activate Fifth Tab
 $('#Filter_5').click(function() {
   // Change Filter Button Appearances
-    $('#Filter_1').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_2').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_3').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_4').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $(this).removeClass( "filter-gallery" ).addClass( "filter-gallery-active" );
-    $('#Filter_6').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_7').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
+    $('#Filter_1').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_2').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_3').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_4').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $(this).removeClass( "btn-light" ).addClass( "btn-primary" );
+    $('#Filter_6').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_7').removeClass( "btn-primary" ).addClass( "btn-light" );
   // Hide / Show main content
     $('#inpager_1').hide();
     $('#inpager_2').hide();
@@ -702,13 +703,13 @@ $('#Filter_5').click(function() {
 // Activate Sixth Tab
 $('#Filter_6').click(function() {
   // Change Filter Button Appearances
-    $('#Filter_1').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_2').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_3').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_4').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_5').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $(this).removeClass( "filter-gallery" ).addClass( "filter-gallery-active" );
-    $('#Filter_7').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
+    $('#Filter_1').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_2').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_3').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_4').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_5').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $(this).removeClass( "btn-light" ).addClass( "btn-primary" );
+    $('#Filter_7').removeClass( "btn-primary" ).addClass( "btn-light" );
   // Hide / Show main content
     $('#inpager_1').hide();
     $('#inpager_2').hide();
@@ -723,13 +724,13 @@ $('#Filter_6').click(function() {
 // Activate Seventh Tab
 $('#Filter_7').click(function() {
   // Change Filter Button Appearances
-    $('#Filter_1').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_2').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_3').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_4').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_5').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $('#Filter_6').removeClass( "filter-gallery-active" ).addClass( "filter-gallery" );
-    $(this).removeClass( "filter-gallery" ).addClass( "filter-gallery-active" );
+    $('#Filter_1').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_2').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_3').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_4').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_5').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $('#Filter_6').removeClass( "btn-primary" ).addClass( "btn-light" );
+    $(this).removeClass( "btn-light" ).addClass( "btn-primary" );
   // Hide / Show main content
     $('#inpager_1').hide();
     $('#inpager_2').hide();
