@@ -1,6 +1,6 @@
 
     .my-work  {
-      background: url(images/Matie_Natov_UX.png) no-repeat center center fixed; 
+      background: url(images/Matie_Natov_Work.jpg) no-repeat center center fixed; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -54,6 +54,10 @@
 	.img-BG {
 		background: whitesmoke;
 		padding: 101px;
+	}
+
+	* {
+		font-family: 'Montserrat', sans-serif;
 	}
 
 
