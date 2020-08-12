@@ -9,6 +9,18 @@
       background-color:#444444;
     }
 
+	.jumbotron {
+		background-color: #1d2124;
+		padding: 31px;
+	}
+	img {
+		padding-bottom: 19px;
+	}
+	.container {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
 	.MN-card {
 		background: #FFF;
 		border: 1px #e0e0e0 solid;
